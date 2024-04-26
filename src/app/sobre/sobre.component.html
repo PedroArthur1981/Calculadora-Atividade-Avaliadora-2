@@ -1,0 +1,26 @@
+<button (click)="showSobre()" style="display: block; margin: 0 auto;">Sobre</button>
+<br />
+<div *ngIf="show">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-9">
+        <p>Turma: <span class="turma">ADS0304N</span></p>
+        <p>Turno: <span class="turno">Noite</span></p>
+        <p>Unidade: <span class="unidade">Bonsucesso</span></p>
+      </div>
+      <div  class="col-md-3 col-1">
+      </div>
+      <div class="col-md-1 col-2">
+        <img src="assets/img/pedro.jpg" class="img-fluid" style="max-width: 90px; height: auto;" alt="Foto do aluno" />
+      </div>
+      <div  class="col-md-3">
+      </div>
+      <div
+        class="col-md-2 col-12 text-center">
+        <p>
+          Nome: <span class="nome">Pedro Arthur Oliveira Moreira da Silva</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
